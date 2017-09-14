@@ -22,6 +22,7 @@
 		BE577DFA1F6B3456005F45D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE577DFD1F6B3456005F45D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE577DFF1F6B3456005F45D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE577E051F6B40C5005F45D4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		BE577DE71F6B3456005F45D4 = {
 			isa = PBXGroup;
 			children = (
+				BE577E051F6B40C5005F45D4 /* README.md */,
 				BE577DF21F6B3456005F45D4 /* AulaTemplate */,
 				BE577DF11F6B3456005F45D4 /* Products */,
 			);
