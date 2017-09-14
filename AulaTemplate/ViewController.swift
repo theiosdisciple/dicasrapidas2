@@ -10,15 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var bubbleImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func changeColor(_ sender: UIButton) {
+        UIView.animate(withDuration: 0.35) { [weak self] in
+            self?.bubbleImageView.tintColor = sender.backgroundColor
+        }
     }
+    
 
 
 }
